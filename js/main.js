@@ -1,19 +1,22 @@
-const modal = document.querySelector(".modal2");
-const open_modal = document.querySelector(".open-modal");
-const close_modal = document.querySelector(".close-modal");
+const openModal = document.querySelectorAll("[data-target]")
+const modal = document.querySelectorAll(".modal2")
+const closeModal = document.querySelectorAll(".close-modal")
 
+console.log("Hola")
 
-open_modal.addEventListener("click"  , () =>{
-    modal.showModal()
+openModal.forEach(function(btn) {
+   btn.addEventListener("click", ()=>{  
+    let actual = document.querySelector(btn.dataset.target)
+    actual.showModal()
+   })
 })
 
-close_modal.addEventListener("click" , () =>{
-    modal.close()
-})
-
-
-
-
+closeModal.forEach(function(btn) {
+    btn.addEventListener("click", ()=>{  
+     let actual = document.querySelector(btn.dataset.target)
+     actual.close()
+    })
+ })
 
 document.addEventListener("DOMContentLoaded",() =>{
     const elementosCarrusel = document.querySelectorAll(".carousel")
