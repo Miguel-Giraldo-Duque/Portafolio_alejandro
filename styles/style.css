@@ -48,7 +48,7 @@ body {
     padding: 20px 30px;
     position: relative;
     right:  440px;
-    z-index: 99;
+    z-index: 1;
     opacity: .85;
 }
 
@@ -162,5 +162,54 @@ margin-top: 50px;
 .contenido-descripcion .btn-link:hover {
     border: 1px solid #3dff3e;
     animation: none;
+}
+
+.btn{
+    background-color:#D7263D !important;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.modal2{
+    max-width: 50ch;
+    border: none;
+    margin-top: 100px;
+    margin-left: 670px;
+    padding: 20px;
+}
+
+.modal2 button {
+    margin-top :20px ;
+}
+
+.modal2::backdrop{
+    background-color: #141414;
+    opacity: .3;
+}
+
+.close-modal{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    position: absolute;
+    left: 460px;
+    top: 10px ;
+}
+
+
+.info{
+    padding: 10px;
+
+}
+
+
+#drag-move {
+    position: absolute;
+    left: 849px;
+    display: flex;
+    text-orientation: sideways-right;
+    bottom: 20px;
+    width: 250px;
+
 }
 
