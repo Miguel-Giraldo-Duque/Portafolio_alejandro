@@ -1,6 +1,7 @@
 /* ESTILOS GENERALES */
 * { 
     margin: 0; 
+
     padding: 0; 
     box-sizing: border-box;
 }
@@ -16,6 +17,7 @@
 #hero{
     min-height: 100vh;
     min-width: 100%;
+    overflow-x: hidden;
     position: absolute;
 }
 
@@ -31,11 +33,11 @@ video{
 
 
 body {
-    background-color: #515151;
     color: var(--color-texto);
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    /* background-color:black ; */
 }
 
 .contenedor {
@@ -345,19 +347,22 @@ button::-moz-focus-inner {
     }
 
     .carousel{
-        bottom: 500px;
-        /* left: 300px; */
-        min-width: 851px;
-        height: 500px;
-        width: 200px;
-        background: #252525;
-        border-radius: 35%;
-        margin-right: 450px;
-        top: 60px;
-        left: -450px;
+        left: -440px;
+        bottom: -50px;
     }
 
     .carousel .carousel-item {
         min-width: 300px;
     }
+
+     .contenedor{
+        right: 0;
+        width: 100%;
+    }
+
+    #hero{
+        position: relative ; 
+     overflow-y: scroll;
+    } 
+
 }

@@ -39,9 +39,10 @@ document.addEventListener("DOMContentLoaded",() =>{
     const elementosCarrusel = document.querySelectorAll(".carousel")
    let date = M.Carousel.init(elementosCarrusel ,{
         duration: 150,
-        indicators: true ,
+        indicators: true ,  
+   
         paddin: 5,
-        numVisible: 2
+        numVisible: 1
     })
  
     
