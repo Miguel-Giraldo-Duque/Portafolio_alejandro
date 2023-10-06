@@ -312,3 +312,52 @@ button::-moz-focus-inner {
   }
 }
 
+
+
+@media only screen and (max-width:800px) {
+    .descripcion{
+        width: 200px;
+        text-align: center;
+    }
+
+
+    .contenido-descripcion{
+        margin-left: 50px;
+    }
+
+
+    .contenedor {
+        margin-top: 0;
+     
+    }
+
+
+
+    video{
+        width: 50%;
+        height: 50%;    
+
+    }
+
+
+    .capa{
+        top: 900px;
+    }
+
+    .carousel{
+        bottom: 500px;
+        /* left: 300px; */
+        min-width: 851px;
+        height: 500px;
+        width: 200px;
+        background: #252525;
+        border-radius: 35%;
+        margin-right: 450px;
+        top: 60px;
+        left: -450px;
+    }
+
+    .carousel .carousel-item {
+        min-width: 300px;
+    }
+}
