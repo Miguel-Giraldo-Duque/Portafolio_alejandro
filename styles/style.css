@@ -18,6 +18,7 @@
     min-height: 100vh;
     min-width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
     position: absolute;
 }
 
@@ -364,5 +365,10 @@ button::-moz-focus-inner {
         position: relative ; 
      overflow-y: scroll;
     } 
+
+
+    .contenedor .header{
+        height: calc(100vh - -40px);
+    }
 
 }

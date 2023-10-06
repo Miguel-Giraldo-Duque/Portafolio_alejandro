@@ -18,12 +18,11 @@ body{
     position: absolute;
     z-index: 1;
     top: 0;
-
+    width: 100%;
     overflow: hidden;
     object-fit: cover;
     /* background-color: #141414; */ 
 }
-
 
 
 

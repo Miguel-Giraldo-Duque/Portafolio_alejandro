@@ -10,10 +10,16 @@ function changeUrl(url) {
     video.play()
 }
 
+
+
+
 if (screen.width < 1024) {
     changeUrl(".")
    console.log(video.src)
+}else{
+    changeUrl("../cubo mas pequeño.mp4")
 }
+
 
 
 
